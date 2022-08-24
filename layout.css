@@ -1,0 +1,35 @@
+img {
+  width: 100%;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+.sektion {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.section_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+article {
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
